@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sketch to Image 2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<!--   <div>
+
+      <canvas id ="canva"></canvas>
+      <div class="tools">
+      <div>
+        <button type="button" onClick="undo_canvas()" name="button" class="button">Undo</button>
+      </div>
+      <div>
+        <button type="button" onClick="clear_canvas()" name="button" class="button">Clear</button>
+      </div>
+        <!--  <div class="clr"></div>
+        <div class="black">   </div>
+        <input type="color" name="" value="" class="colour"> colours-->
+  <!--    </div>
+    </div>
+    <p>
+      Select Image:
+    </p>
+    <form>
+      <input type="file" accept="image*/" id="upload" />
+      <input type="submit" />
+    </form>  -->
+
+    <table>
+      <tr>
+        <td>
+            <canvas id ="canva"></canvas>
+        </td>
+        <td>
+          <div>
+            <button type="button" onClick="undo_canvas()" name="button" class="button btn1">Undo</button>
+          </div>
+          <div>
+            <button type="button" onClick="clear_canvas()" name="button" class="button btn2">Clear</button>
+          </div>
+            <!--  <div class="clr"></div>-->
+              <!--<div class="black">   </div>
+          <!--  <input type="color" name="" value="" class="colour"> <!--colours-->
+        <p class="para">
+          Select Image:
+        </p>
+        <form class="data" onsubmit="func()">
+          <div>
+            <input class="load"type="file" accept="image*/" id="upload" />
+          </div>
+          <div>
+              <input class="submitt"type="submit" />
+          </div>
+        </form>
+        <button type="button" class="button btn3" id="download">Download Sketch</button>
+        </td>
+      </tr>
+    </table>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
